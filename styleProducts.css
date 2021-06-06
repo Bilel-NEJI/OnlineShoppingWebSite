@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    background-color: #2ba1e6;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:14px 110px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.list-items{
+    display: flex;
+    align-items: center;
+}
+.list-items li {
+    list-style: none;
+    padding:0 20px;
+    font-size: 22.5px;
+    color: white;
+    font-weight: 500;
+}
+
+.tttt {
+    background-color: rgb(255, 72, 0);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 70px;
+    height: 30px;
+    justify-content: space-between;
+   
+    border-radius: 10px;
+}
+
+.commentaire {
+    color: white;
+    font-size: 18px;
+}
+
+.non_souligné a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butt1{
+    color: white;
+    width: 120px;
+    height: 39px;
+    background-color: rgb(204, 175, 44);
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border-color: rgb(214, 218, 222);
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.nav-butt2{
+    background-color: #3e7ef5;
+    color:white;
+    height: 39px;
+    width: 107px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+/* le paramétrage des colonnes de la table qui contient les données des produits */
+table td {
+    width: 25%;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.categories_part {
+    font-size: 15px;
+    margin: 30px 50px 30px 50px;
+    border: 10px solid rgb(238, 228, 83);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0f5668;
+}
+
+.categories_part h1 {
+    position: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-style: bolder;
+    padding: 10px 10px 10px 10px;
+    white-space: pre-line;
+}
+
+.categories_part p {    
+    white-space: pre-line;
+}
+
+.photo {
+    border: 3px solid #0a252c;
+}
+
+.categories_part p {
+    color: white;
+    font-size: 23px;
+    font-style: bolder;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.categories_part h2{
+    color: rgb(201, 247, 36);
+    font-size: 25px;
+    font-style: bolder;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* l'affichage du boutton d'ajout produit */
+.adding {
+    height: 37px;
+    width: 200px;
+    background-color: rgb(201, 247, 36);
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.list_inf {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    list-style: none;
+    display: flex;
+    align-items: initial;
+    padding: 14px 450px;
+    justify-content: space-around;    
+}

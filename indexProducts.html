@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop like a Boss</title>
+        <link rel="stylesheet" href="styleProducts.css"/>
+    </head>
+
+    <body>
+        <!-- la barre d'en-tête de la page -->
+        <div class="navbar">
+            <ul class="list-items">
+                <li class="acceuil_logo"> <img class="logo" onclick="window.location.href='index.html'" src="logo.jpg" type="image.jpg"> </li>
+                <li class="non_souligné"> Products </li>
+                <li class="non_souligné"> <a href="indexBasket.html"> Basket </a> </li>
+                <li class="non_souligné"> <a href="indexAboutUs.html"> About Us </a> </li>
+                <li class="non_souligné"> <a href="indexContact.html"> Contact </a> </li>
+            </ul>
+            
+            
+            <div class="tttt"> You <span> 0 </span> </div>
+            <div>       </div>
+
+            <div>
+                <h3 class="commentaire"> Don't have an account ?</h3>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-butt1"> <a href="indexSubscribe.html"> Subscribe </a> </button>
+                <button class="nav-butt2"> <a href="indexLogin.html"> Login </a> </button>
+                
+            </div>
+        </div>
+
+
+        <!-- la partie consacrée pour la présentation des articles sur le site-web -->
+        <div class="categories_part">
+            <table>
+                <tr class="action produit_1">
+                    <td> <h1> Pneumatic Impact Wrench </h1> </td>
+                    <td> <img class="photo" src="produit_1.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : Facom FM520 <br> Pneumatic tool (Nominal pressure of 05) </p> </td>
+                    <td>
+                        <h2> Price 350 TND </h2> 
+                        <button class="adding add1"> Add to Basket </button>
+                    </td>
+                </tr>
+                
+                <tr class="action produit_2">
+                    <td> <h1> Socket Wrench Box </h1> </td>
+                    <td> <img class="photo" src="produit_2.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : BETA T204XS <br> High quality tool with a 05 year warranty </p> </td>
+                    <td>
+                        <h2> Price : 280 TND </h2>
+                        <button class="adding add2"> Add to Basket </button>
+                    </td>
+                </tr>
+                
+                <tr class="action produit_3">
+                    <td> <h1> Screwdriver set 08 pieces </h1> </td>
+                    <td> <img class="photo" src="produit_3.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : TOPTUM BNPA07 <br> Corrosion resistant material </p> </td>
+                    <td>
+                        <h2> Price : 120 TND </h2>
+                        <button class="adding add3"> Add to Basket </button>
+                    </td>
+                </tr>
+                
+                <tr class="action produit_4">
+                    <td> <h1> Hydraulic Roller Jack 6T </h1> </td>
+                    <td> <img class="photo" src="produit_4.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : Michelin AZ6 <br> Support jack up to 06 tons </p> </td>
+                    <td>
+                        <h2> Price : 450 TND </h2>
+                        <button class="adding add4"> Add to Basket </button>
+                    </td>
+                </tr>
+
+                <tr class="action produit_5">
+                    <td> <h1> Hydraulic Bottle Jack 3T </h1> </td>
+                    <td> <img class="photo" src="produit_5.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : INGCO 78AZA <br> For home do-it-yourself and also for mechanics </p> </td>
+                    <td>
+                        <h2> Price : 180 TND </h2>
+                        <button class="adding add5"> Add to Basket </button>
+                    </td>
+                </tr>
+
+                <tr class="action produit_6">
+                    <td> <h1> Angle Grinder 260W </h1> </td>
+                    <td> <img class="photo" src="produit_6.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : BOSCH BSC00260 <br> A robust tool for professionals </p> </td>
+                    <td>
+                        <h2> Price : 350 TND </h2>
+                        <button class="adding add6"> Add to Basket </button>
+                    </td>
+                </tr>
+                
+                <tr class="action produit_7">
+                    <td> <h1> Screwdriver Drill 18V </h1> </td>
+                    <td> <img class="photo" src="produit_7.jpg" type="image.jpg"> </td>
+                    <td> <p> Reference : AEG QLM18R300 <br> For all your professional work </p> </td>
+                    <td>
+                        <h2> Price : 190 TND </h2>
+                        <button class="adding add7"> Add to Basket </button>
+                    </td>
+                </tr>
+            </table>        
+        </div>
+
+
+        <!-- la partie inférieure -->
+        <ul class="list_inf">
+            <li> <img class="linkedin" src="linkedin.jpg" onclick="window.location.href='https://linkedin.com'"> </li>
+            <li> <img class="youtube" src="youtube.jpg" onclick="window.location.href='https://youtube.com'"> </li>
+        </ul>
+        
+        <!-- l'appel du fichier js pour la l'ajout et la mise à jour du panier des articles sélectionnés -->
+        <script src="mainBasket.js"></script>
+    </body>
+</html>

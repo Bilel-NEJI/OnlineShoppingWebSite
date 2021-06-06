@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop like a Boss</title>
+        <link rel="stylesheet" href="styleContact.css"/>
+    </head>
+
+    <body>
+        <!-- la barre d'en-tête de la page -->
+        <div class="navbar">
+            <ul class="list-items">
+                <li class="acceuil_logo"> <img class="logo" onclick="window.location.href='index.html'" src="logo.jpg" type="image.jpg"> </li>
+                <li class="non_souligné"> <a href="indexProducts.html"> Products </li>
+                <li class="non_souligné"> <a href="indexBasket.html"> Basket </a> </li>
+                <li class="non_souligné"> <a href="indexAboutUs.html"> About Us </a> </li>
+                <li> Contact </li>
+            </ul>
+            
+            <div>       </div>
+            <div>       </div>
+            <div>       </div>
+
+            <div>
+                <h3 class="commentaire"> Don't have an account ?</h3>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-butt1"> <a href="indexSubscribe.html"> Subscribe </a> </button>
+                <button class="nav-butt2"> <a href="indexLogin.html"> Login </a> </button>
+                
+            </div>
+        </div>
+
+        <!-- la partie présente les coordonnées pour un contact -->
+        <div class="contact_information">
+            <p> We will be happy to receive your messages, emails or phone calls to know your point of view, so we can improve your next experience</p>
+            <br> 
+            <h1> <span3> Shopping with </span3> <span2> MoMad ! </span2> <span3> Shopping like a Boss </span3> </h1>
+            <br> 
+            <p> <span> Email: </span> contact@momad.com</p>
+            <p> <span> Phone: </span> +216 70 10 20 30</p>
+            <p> <span> Adress: </span> B58, Turkey's Street, Tunis</p>
+        </div>
+
+        <!-- le formulaire de contact à soumettre -->
+        <div class="contact_formulaire">
+            <form method=post action=cgi-bin/scrpt.pl>
+                <table>
+                    <tr>
+                        <td> Which Department </td>
+                        <td></td>
+                        <td>
+                            <select name="department">
+                                <option value="none"> Select one </option>
+                                <option value="Commercial"> Commercial </option>
+                                <option value="Management"> Management </option>
+                                <option value="HR"> HR </option>
+                                <option value="Technical"> Technical </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Title </td>
+                        <td></td>
+                        <td>
+                            <select name="title">
+                                <option value="none"> Select one </option>
+                                <option value="Mr"> Mr. </option>
+                                <option value="Ms"> Ms. </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Name </td>
+                        <td></td>
+                        <td> <input type="text" name="name"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> Phone Num. </td>
+                        <td></td>
+                        <td> <input type="text" name="phone_number"> </td>
+                    </tr>  
+
+                    <tr>
+                        <td> Email </td>
+                        <td></td>
+                        <td> <input type="text" name="email"> </td>
+                    </tr>
+
+                    <tr>
+                        <td> Message </td>
+                        <td></td>
+                        <td> <input type="text" name="message"> </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td> <input type="submit" value="Submit" class="submit"> </td>
+                    </tr>
+                </table>
+            </form>           
+
+        </div>
+
+
+        <!-- la partie inférieure -->
+        <ul class="list_inf">
+            <li> <img class="linkedin" src="linkedin.jpg" onclick="window.location.href='https://linkedin.com'"> </li>
+            <li> <img class="youtube" src="youtube.jpg" onclick="window.location.href='https://youtube.com'"> </li>
+        </ul>
+
+    </body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    background-color: #2ba1e6;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:14px 110px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.commentaire {
+    color: white;
+    font-size: 18px;
+}
+
+.non_souligné a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butt1{
+    color: white;
+    width: 120px;
+    height: 39px;
+    background-color: rgb(204, 175, 44);
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border-color: rgb(214, 218, 222);
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.nav-butt2{
+    background-color: #3e7ef5;
+    color:white;
+    height: 39px;
+    width: 107px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+
+.list-items{
+    display: flex;
+    align-items: center;
+}
+.list-items li {
+    list-style: none;
+    padding:0 20px;
+    font-size: 22.5px;
+    color: white;
+    font-weight: 500;
+}
+
+.aboutUs_part {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #91ddf0;
+    padding: 100px 100px 43px 100px;
+}
+
+.aboutUs_part_col1 p span {
+    color: rgb(172, 6, 206);
+    font-weight: 600px;
+    font-style: bolder;
+}
+
+.aboutUs_part_col1 p span2 {
+    color: rgb(46, 15, 117);
+    font-weight: 600px;
+    font-style: bolder;
+}
+
+.aboutUs_part_col1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 30px;
+}
+
+.aboutUs_part_col2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 10px; 
+}
+
+.siege {
+    border: 8px solid rgb(215, 247, 153);
+    border-radius: 8px;
+}
+
+
+.list_inf {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    list-style: none;
+    display: flex;
+    align-items: initial;
+    padding: 14px 450px;
+    justify-content: space-around;    
+}

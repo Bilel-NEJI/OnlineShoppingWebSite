@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #2ba1e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 110px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.list-items{
+    display: flex;
+    align-items: center;
+}
+
+.list-items li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 22.5px;
+    color: white;
+    font-weight: 500;
+}
+
+.commentaire {
+    color: white;
+    font-size: 18px;
+}
+
+.non_souligné a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-butt1 {
+    width: 120px;
+    height: 39px;
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border-color: rgb(214, 218, 222);
+    background-color: white;
+    color: rgb(5, 5, 5);
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.nav-butt2{
+    background-color: #3e7ef5;
+    color:white;
+    height: 39px;
+    width: 107px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.animation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #91ddf0;
+  padding: 15px 20px 15px 20px;
+  transform: translate(0%,0%);
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.animation h1, .animation span {
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+}
+
+.animation span:nth-child(1) {
+  position: relative;
+  animation: animate 2.2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+.animation span:nth-child(2) {
+  position: relative;
+  animation: animate 2.2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  0% {bottom: -100px;}
+  100% {bottom: 0}
+}
+
+
+.Promotion_Part {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #91ddf0;
+    padding: 80px 170px 40px 170px; 
+}
+
+.col1 h1 {
+    font-size: 45px;
+    color:#e90cb9;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    background-color: #91ddf0;
+}
+
+.col1 span {
+    color: white;
+}
+
+.col1 span2 {
+    color: rgb(119, 6, 153);
+    font-size: 55px;
+    font-weight: 300px;
+}
+
+.butt1-col1 {
+  color: #e90cb9;
+  text-decoration: none;
+  border-radius: 9px;
+  font-weight: 600;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(221, 158, 216);
+  font-size: 30px;
+  padding: 0px 15px;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+.mySlides {
+  display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.partie_coulissante {
+  max-width: 1000px;
+  position: relative;
+}
+
+.suivant, .precedent  {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* effet couleur avec transparence en changement des slides */
+.prev:hover, .next:hover {
+  background-color: rgba(32, 136, 184, 0.8);
+}
+
+.point {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .point:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+.list_inf {
+    display: flex;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    list-style: none;
+    align-items: initial;
+    padding: 14px 450px;
+    justify-content: space-around;    
+}

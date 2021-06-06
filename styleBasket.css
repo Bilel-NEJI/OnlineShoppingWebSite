@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #2ba1e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 110px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+.nav-butt1 {
+    color: white;
+    width: 120px;
+    height: 39px;
+    background-color: rgb(204, 175, 44);
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border-color: rgb(214, 218, 222);
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.nav-butt2{
+    background-color: #3e7ef5;
+    color:white;
+    height: 39px;
+    width: 107px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+}
+.list-items li {
+    list-style: none;
+    padding:0 20px;
+    font-size: 22.5px;
+    color: white;
+    font-weight: 500;
+}
+
+.commentaire {
+    color: white;
+    font-size: 18px;
+}
+
+.non_souligné li {
+    text-decoration: none;
+    color: white;
+}
+
+.non_souligné a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.basket_title {
+    background-color: #91ddf0;
+    padding: 5px 200px;
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(46, 15, 117);
+}
+
+.shopping-cart {
+    display: flex;
+    width: 1300px;
+    height: 900px;
+    margin: 20px auto;
+    background: #eecee3;
+    box-shadow: 4px 2px 3px 0px rgba(145, 6, 173, 0.1);
+    border-radius: 13px;
+    flex-direction: column;
+}
+
+.title {
+    height: 30px;
+    border: 4px dashed #7a204d;
+    border-radius: 13px;
+    padding: 8px 30px;
+    color: #102744;
+    font-size: 28px;
+    font-weight: 800;
+}
+   
+.item {
+    display: flex;
+    height: 135px;
+    padding: 20px 30px;
+}
+   
+.item:nth-child(3) {
+    border-top:  2px solid #7a204d;
+    border-bottom:  2px solid #7a204d;
+}
+
+.boutons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+}
+
+.supprimer_bt, .aimer_bt {
+    display: inline-block;
+    Cursor: pointer;
+}
+
+.supprimer_bt {
+    width: 30px;
+    height: 30px;
+    background: url('trash.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+   
+.aimer_bt {
+    display: flex;
+    top: 9px;
+    left: 15px;
+    background: url('favori.png');
+    width: 30px;
+    height: 30px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+.image {
+    margin-right: 400px;
+    width: 70px;
+    size: 50%;
+}
+
+.description {
+    padding-top: 40px;
+    margin-right: 150px;
+    width: 140px;
+}
+   
+.description span {
+    display: block;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 800;
+}
+   
+.description span:first-child {
+    margin-bottom: 2px;
+}
+
+.description span:last-child {
+    font-weight: 300;
+    margin-top: 3px;
+    color: #000000;
+}
+
+.quantité {
+    padding-top: 50px;
+    margin-right: 100px;
+  }
+
+.quantité input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #0b457e;
+    font-weight: 300;
+}
+   
+button[class*=bt] {
+    width: 30px;
+    height: 30px;
+    background-color: #27060a;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.minus-btn img {
+    margin-bottom: 3px;
+}
+
+.plus-btn img {
+    margin-top: 2px;
+}
+   
+button:focus, input:focus {
+    outline:0;
+}
+
+.prix_total {
+    width: 150px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 24px;
+    color: #110707;
+    font-weight: 800;
+}
+
+.list_inf {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    list-style: none;
+    display: flex;
+    align-items: initial;
+    padding: 14px 450px;
+    justify-content: space-around;    
+}
